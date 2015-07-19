@@ -36,7 +36,7 @@ public class AberturaAgenda  implements java.io.Serializable {
      private Date dtCriacao;
      private BigDecimal cdAlteradoPor;
      private Date dtUltimaAlteracao;
-     private Set horarioAberturaAgendas = new HashSet(0);
+     private Set<HorarioAberturaAgenda> horarioAberturaAgendas = new HashSet<HorarioAberturaAgenda>(0);
 
     public AberturaAgenda() {
     }
@@ -154,11 +154,11 @@ public class AberturaAgenda  implements java.io.Serializable {
     }
 
 @OneToMany(fetch=FetchType.LAZY, mappedBy="aberturaAgenda")
-    public Set getHorarioAberturaAgendas() {
+    public Set<HorarioAberturaAgenda> getHorarioAberturaAgendas() {
         return this.horarioAberturaAgendas;
     }
     
-    public void setHorarioAberturaAgendas(Set horarioAberturaAgendas) {
+    public void setHorarioAberturaAgendas(Set<HorarioAberturaAgenda> horarioAberturaAgendas) {
         this.horarioAberturaAgendas = horarioAberturaAgendas;
     }
 
