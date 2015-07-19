@@ -5,6 +5,7 @@
     <tiles:insertDefinition name="template">
         <tiles:putAttribute name="corpo">
             <p align="center">Bem vindo. Escolha sua opção logo acima.</p>
+            
         </tiles:putAttribute>
     </tiles:insertDefinition>
 </html>
