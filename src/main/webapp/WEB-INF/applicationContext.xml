@@ -25,9 +25,12 @@
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
         <property name="driverClassName" value="oracle.jdbc.OracleDriver"/>
-        <property name="url" value="jdbc:oracle:thin:@192.168.25.5:1521:XE"/>
+        <!--
+        <property name="url" value="jdbc:oracle:thin:@http://177.99.213.184:1522:XE"/>
+        -->
+        <property name="url" value="jdbc:oracle:thin:@192.168.25.10:1522:XE"/>
         <property name="username" value="desenv"/>
-        <property name="password" value="d3s3nv"/>
+        <property name="password" value="desenv"/>
     </bean>
     
     <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
