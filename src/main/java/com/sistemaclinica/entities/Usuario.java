@@ -5,8 +5,6 @@
  */
 package com.sistemaclinica.entities;
 
-import javax.persistence.Entity;
-
 /**
  *
  * @author maroni

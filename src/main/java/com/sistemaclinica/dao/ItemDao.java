@@ -5,10 +5,6 @@
  */
 package com.sistemaclinica.dao;
 
-import java.util.List;
-import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
-
 /**
  *
  * @author maroni

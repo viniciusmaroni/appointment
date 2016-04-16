@@ -5,9 +5,6 @@
  */
 package com.sistemaclinica.controller;
 
-import com.sistemaclinica.dao.ItemDao;
-import java.util.List;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.ModelMap;
